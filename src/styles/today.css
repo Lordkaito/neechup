@@ -1,0 +1,40 @@
+.add-task {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  font-size: 1rem;
+  align-items: center;
+  opacity: .7;
+}
+
+.add-task:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.add-task input {
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+.add-task input:focus {
+  color: red;
+}
+
+.add-task-icon {
+  vertical-align: bottom;
+  color: red;
+}
+
+.add-task-text {
+  color: grey;
+}
+
+.today-container {
+  width: 100% !important;
+  /* display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end; */
+}

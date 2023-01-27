@@ -1,0 +1,20 @@
+.menu-aside {
+  background-color: whitesmoke;
+  width: 25rem;
+  height: 100vh;
+  transition: width .3s ease-in-out
+}
+
+.hidden {
+  width: 0rem;
+}
+
+.menu-ul {
+  list-style-type: none;
+  padding-top: 1rem;
+}
+
+.menu-ul li {
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+}

@@ -1,0 +1,12 @@
+.main-calendar {
+  /* width: 500px !important; */
+  height: 600px;
+  width: 100%;
+  background-color: yellow;
+  display: flex;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
